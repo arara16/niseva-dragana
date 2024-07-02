@@ -1,7 +1,7 @@
 body > div {
     position: relative;
     z-index: 1;
-    padding-bottom: 9%;
+    padding-bottom: 3%;
 }
 
 body > div:nth-child(1)::before {
@@ -232,4 +232,32 @@ img:hover, #\31  > ul > li > a:hover, .carousel img:hover{
 
 #\32  > div > div > div {
     display: grid;
+}
+
+#\31 \.1 > p {
+    /*margin-left: 10%;*/
+    /*margin-right: 10%;*/
+    padding-left: 2%;
+    padding-right: 2%;
+    color: rgba(208, 156, 182, 0.87);
+    /*font-weight: bold;*/
+    text-shadow: #650000 0.2px 0.4px;
+}
+
+#\31 \.1 > p:last-of-type{
+    padding-bottom: 2%;
+}
+
+#\31  > p:nth-child(8) {
+    padding-bottom: 9%;
+}
+
+#\31 \.1 {
+    background-color: rgba(0, 0, 0, 0.18);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#\31 \.1 > p:nth-child(1) {
+    padding-top: 2%;
 }
